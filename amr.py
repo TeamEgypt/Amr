@@ -16,6 +16,11 @@ client = nexmo.Client(
   private_key='private.key'
 )
 
+
+import os
+os.system("clear")
+
+
 amrtxt = input('Enter the masge: ') 
 amrnumber = input('Enter number: ')
 
