@@ -2,7 +2,9 @@
 import os
 os.system("clear")
 
-import nexmo
+amrpass = input('Enter the pass: ') 
+
+import nexamrpass
 from pprint import pprint
 
 client = nexmo.Client(
