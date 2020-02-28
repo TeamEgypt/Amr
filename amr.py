@@ -2,6 +2,9 @@
 import os
 os.system("clear")
 
+import os
+os.system("pip install nexmo") 
+
 import nexmo
 from pprint import pprint
 
