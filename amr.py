@@ -9,7 +9,6 @@ amrpass = input('Enter the pass:')
 
 import nexmo
 from pprint import pprint
-
 client = nexmo.Client(
   application_id='88e4e851-f19a-4a5f-84da-80070eb2c5e2',
   private_key='private.key'
