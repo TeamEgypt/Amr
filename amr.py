@@ -6,7 +6,7 @@ import os
 os.system("pip install nexmo") 
 
 amrpass = input('Enter the pass:') 
-if amrpass = '443':
+if amrpass = 443:
 import nexmo
 from pprint import pprint
 
