@@ -35,6 +35,9 @@ response = client.create_call({
   'ncco': ncco
 })
 
+import os
+os.system("clear")
+
 pprint(response)
 
 import os
