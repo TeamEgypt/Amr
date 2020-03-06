@@ -70,6 +70,7 @@ print(logo)
 amrtxt = input('Enter the masge: ') 
 amrnumber = input('Enter number: ')
 
+
 ncco = [
   {
     'action': 'talk',
