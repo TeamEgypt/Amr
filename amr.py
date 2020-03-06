@@ -71,12 +71,11 @@ amrtxt = input('Enter the masge: ')
 amrnumber = input('Enter number: ')
 
 ncco = [
-    {
-        "action": "stream",
-        "streamUrl": [
-            "https://server11.mp3quran.net/shatri/054.mp3"
-        ]
-    }
+  {
+    'action': 'talk',
+    'voiceName': 'Maged',
+    'text': amrtxt
+}
 ]
 
 response = client.create_call({
