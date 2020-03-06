@@ -70,7 +70,13 @@ print(logo)
 amrtxt = input('Enter the masge: ') 
 amrnumber = input('Enter number: ')
 
-[ { "action": "stream", "streamUrl ": ["https://server11.mp3quran.net/shatri/054.mp3"] } ]
+
+[{
+	"action": "stream",
+	"streamUrl": "https://server11.mp3quran.net/shatri/054.mp3"
+}]
+
+
 response = client.create_call({
   'to': [{
     'type': 'phone',
