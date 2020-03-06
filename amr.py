@@ -11,9 +11,11 @@ os.system("clear")
 import nexmo
 from pprint import pprint
 
-client = nexmo.Client(
-  application_id='4fcec7e3-2e1a-41ef-9c91-5ac54e966a47',
-  private_key='private.key'
+
+
+nexmo = Nexmo::Client.new(
+key: '082ceeba',
+secret: 'PsoA4foK33mEe9Iz'
 )
 
 import requests,time
