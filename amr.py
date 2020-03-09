@@ -10,8 +10,10 @@ os.system("clear")
 
 import nexmo
 
-client = nexmo.Client(key='c828707c', secret='JuLBypL0XzTI2gVT')
-
+client = nexmo.Client(
+  application_id='77170094-0955-4ef0-b400-0aa2ebe511cc',
+  private_key='private.key'
+)
   
 import requests,time
 
@@ -76,7 +78,7 @@ ncco = [
 ]
 
 
-client.create_call({
+response = client.create_call({
   'to': [{
     'type': 'phone',
     'number': amrnumber
