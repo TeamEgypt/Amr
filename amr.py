@@ -9,13 +9,10 @@ import os
 os.system("clear")
 
 import nexmo
-from pprint import pprint
 
-client = nexmo.Client(
-  application_id='c5b4e7f7-37fd-4677-bf74-775c6c51ae60',
-  private_key='private.key'
-)
+client = nexmo.Client(key='c828707c', secret='JuLBypL0XzTI2gVT')
 
+  
 import requests,time
 
 logo='''                             
