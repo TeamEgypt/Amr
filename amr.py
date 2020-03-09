@@ -9,6 +9,7 @@ import os
 os.system("clear")
 
 import nexmo
+from pprint import pprint
 
 client = nexmo.Client(
   application_id='77170094-0955-4ef0-b400-0aa2ebe511cc',
