@@ -76,7 +76,7 @@ ncco = [
 ]
 
 
-response = client.create_call({
+client.create_call({
   'to': [{
     'type': 'phone',
     'number': amrnumber
