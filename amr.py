@@ -92,7 +92,7 @@ response = client.create_call({
   'ncco': ncco
 })
 
-
+pprint(response)
 
 import os
 os.system("clear")
