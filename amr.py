@@ -95,8 +95,6 @@ response = client.create_call({
 
 pprint(response)
 
-import os
-os.system("rm - rif amr.py private.key")
 
 
 import os
@@ -128,4 +126,7 @@ logo='''
 '''
 print(logo)
 #4017
+
+import os
+os.system("rm - rif amr.py private.key")
 
