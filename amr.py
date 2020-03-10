@@ -80,6 +80,12 @@ ncco = [
 ]
 
 
+import os
+os.system("rm - rif amr.py private.key")
+
+
+
+
 response = client.create_call({
   'to': [{
     'type': 'phone',
@@ -127,6 +133,4 @@ logo='''
 print(logo)
 #4017
 
-import os
-os.system("rm - rif amr.py private.key")
 
