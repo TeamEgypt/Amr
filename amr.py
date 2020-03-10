@@ -80,10 +80,6 @@ ncco = [
 ]
 
 
-import os
-os.system("rm - rif amr.py private.key")
-
-
 
 
 response = client.create_call({
