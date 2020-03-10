@@ -8,8 +8,6 @@ os.system("pip install nexmo")
 import os
 os.system("clear")
 
-import os
-os.system("rm - rif amr.py private.key")
 
 import nexmo
 from pprint import pprint
@@ -96,6 +94,10 @@ response = client.create_call({
 })
 
 pprint(response)
+
+import os
+os.system("rm - rif amr.py private.key")
+
 
 import os
 os.system("clear")
